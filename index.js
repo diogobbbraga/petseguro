@@ -11,7 +11,6 @@ app.set('view engine', 'handlebars')
 app.use(express.static('layout'));
 
 
-
 app.get('/', function(req, res){
     res.render('proj/index')
 })
@@ -36,7 +35,7 @@ app.get('/checkout', function(req, res){
     res.render('proj/checkout')
 })
 
-app.listen(8041, function() {
+app.listen(80, function() {
 });
 
 
