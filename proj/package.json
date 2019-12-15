@@ -1,0 +1,32 @@
+{
+    "name": "HackGrid2019-12",
+    "version": "1.0.0",
+    "description": "HackGrid",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Allan96/hackagr1d.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Allan96/hackagr1d/issues"
+    },
+    "homepage": "https://github.com/Allan96/hackagr1d#readme",
+    "devDependencies": {
+        "browser-sync": "^2.26.5",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-sass": "^4.0.1",
+        "gulp-uglify": "^3.0.1"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "gulp-install": "^1.1.0",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.14.4"
+    }
+}
