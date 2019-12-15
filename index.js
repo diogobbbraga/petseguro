@@ -35,7 +35,7 @@ app.get('/checkout', function(req, res){
     res.render('proj/checkout')
 })
 
-app.listen(80, function() {
+app.listen(8041, function() {
 });
 
 

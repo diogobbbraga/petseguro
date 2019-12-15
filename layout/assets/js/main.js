@@ -13,7 +13,7 @@ $(document).ready(function() {
     });
     $('.loading').click(function(e) {
         e.preventDefault();
-        setTimeout(function() { window.location = './selecionar.html'; }, 3000);
+        setTimeout(function() { window.location = './selecionar'; }, 3000);
 
     });
     $('.maismenos').click(function(e) {
