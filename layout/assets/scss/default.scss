@@ -1,0 +1,186 @@
+@media screen and (min-width: $xs) {
+    body {
+        font-family: Open Sans;
+        color: #656565;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 40px;
+        font-family: Josefin Sans;
+    }
+    h2 {
+        font-family: Josefin Sans;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    h4 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 19px;
+        color: #656565;
+    }
+    .bold {
+        font-weight: 600;
+    }
+    legend {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .bg-light {
+        background-color: transparent!important;
+        margin-bottom: -56px;
+        .navbar-toggler {
+            font-size: 16px;
+            line-height: 22px;
+            border: 0;
+            text-align: center;
+            color: #3703A5;
+            font-weight: normal;
+        }
+    }
+    .btn-primary,
+    .btn-secondary {
+        background: #FBE3B9;
+        border-radius: 21px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        border: 0;
+        color: #FF2121;
+        padding: 10px 72px;
+        margin-top: 48px;
+    }
+    input {
+        border: 0;
+        border-bottom: 2px solid #3703A5;
+        margin-bottom: 24px;
+        padding: 0 5px;
+        width: 80%;
+        color: #3703A5;
+        &:checked {
+            border: 50px solid blue;
+        }
+    }
+    .fa-spin {
+        font-size: 50px;
+    }
+    #header {
+        min-height: calc(100vh - 50px);
+        input {
+            width: 31px;
+            border: 0;
+            border-bottom: 2px solid #3703A5;
+            margin: 0 5px;
+            text-transform: uppercase;
+            text-align: center;
+            &:focus,
+            &:active {
+                outline: 0;
+                box-shadow: 0 0 0 0;
+            }
+        }
+    }
+    #header,
+    #one,
+    #two,
+    #three,
+    #four,
+    #parabens {
+        min-height: 100vh;
+    }
+    .banner-home {
+        background: url(../images/banner-home.svg);
+        background-size: cover;
+        background-position: bottom;
+        min-height: calc(100vh - 90px)!important;
+        .btn-primary,
+        .btn-secondary {
+            padding: 10px 24px;
+        }
+    }
+    .cards {
+        margin-top: -100px;
+        .card-protecao {
+            background: $white;
+            padding: 16px 24px;
+            box-shadow: 0px 12px 35px rgba(187, 187, 187, 0.21);
+            border-radius: 16px;
+            span {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 19px;
+                margin-top: -16px;
+                margin-right: -24px;
+                padding: 8px 12px;
+                float: right;
+                border-top-right-radius: 16px;
+            }
+            .card-body {
+                border: 0;
+                padding: 0;
+                margin-bottom: 24px;
+            }
+        }
+    }
+    #user {
+        margin-top: -62px;
+        min-height: calc(100vh - 300px);
+        margin-bottom: 80px;
+        .card-body {
+            border: 0;
+            padding: 0;
+            margin-bottom: 24px;
+            background: transparent;
+        }
+    }
+    .accordion {
+        border: 0;
+        .card {
+            border: 0;
+            background: transparent;
+            .card-header {
+                border: 0;
+                background: none;
+                padding: 0;
+                .btn-link {
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #3703A5;
+                    padding: 0;
+                    margin: 24px 0 16px 0;
+                    text-decoration: none;
+                }
+            }
+            .card-body {
+                padding: 0;
+                font-size: 14px;
+                line-height: 19px;
+                color: #656565;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $sm) {
+    .bg-light {
+        margin-bottom: -72px;
+    }
+}
+
+@media screen and (min-width: $md) {}
+
+@media screen and (min-width: $lg) {}
+
+@media screen and (min-width: $xl) {}
